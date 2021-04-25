@@ -13,13 +13,15 @@ E) compile the project and start the server: `mix phx.server`
    Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 F) F) Creating a restaurant in the application:
-Route: POST http: // localhost: 4000 / api / restaurants {
+Route: POST http: // localhost: 4000 / api / restaurants
+{
 "name": "restaurant teste",
 "email": "test@email.com"
 }
 
 Adding a supply to a restaurant:
-Route: Post http: // localhost: 4000 / api / supplies {{
+Route: Post http: // localhost: 4000 / api / supplies 
+{
 "restaurant_id": "0fa77fc9-8a08-4db9-89dd-822a693e329c",
 "descripion": "wheat",
 "expiration_date": "2021-04-23",
