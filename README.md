@@ -4,13 +4,13 @@ In this case, start on the elixir trail looking for more knowledge about the fun
 project aims to create an api/json that registered a restaurant, it is possible to add your supplies.
 the responsibility of the API and informs each week which are the items that will lose the validity period of that week.
 
-
 in the terminal, following commands to execute the project:
-A) docker-compose up -d
-B) create the bank: mix ecto.create
-c) Perform the migrations: mix ecto.migrate
-d) add the dependencies: mix deps.get
-E) compile the project and start the server: mix phx.server
+A) `docker-compose up -d`
+B) create the bank: `mix ecto.create`
+c) Perform the migrations: `mix ecto.migrate`
+d) add the dependencies: `mix deps.get`
+E) compile the project and start the server: `mix phx.server`
+   Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 F) F) Creating a restaurant in the application:
 Route: POST http: // localhost: 4000 / api / restaurants {
@@ -25,3 +25,14 @@ Route: Post http: // localhost: 4000 / api / supplies {{
 "expiration_date": "2021-04-23",
 "responsible": "Employee X"
 }
+
+
+
+
+## Learn more
+
+  * Official website: https://www.phoenixframework.org/
+  * Guides: https://hexdocs.pm/phoenix/overview.html
+  * Docs: https://hexdocs.pm/phoenix
+  * Forum: https://elixirforum.com/c/phoenix-forum
+  * Source: https://github.com/phoenixframework/phoenix
